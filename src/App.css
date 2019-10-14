@@ -1,0 +1,115 @@
+
+
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+
+.search-jumbo{
+  padding:3px;
+  text-align: center;
+  background-image: url('./assets/img/bg-1.jpg');
+}
+
+.trend-jumbo{
+  padding:3px;
+  text-align: center;
+  background-image: url('./assets/img/thanos.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Sausage Links Styling */
+.sausage-links {
+  position: relative;
+}
+.sausage-links a:before, a:after {
+      content: '';
+      height: calc(100% - 2em);
+      pointer-events: none;
+      position: absolute;
+      top: 1em;
+      width: 10px;
+      z-index: 2;
+  }
+  
+
+ .sausage-links ul {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: auto;
+      padding: 1em 0;
+      -webkit-overflow-scrolling: touch;
+  }
+
+  .movie-jumbo{
+
+    padding:0 !important;
+    text-align: center;
+    background-image: url('./assets/img/movie-cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+     
+  .cover{
+    padding-top: 50px;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .movie-cover{
+    padding-top: 50px;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+
+  .people-jumbo{
+    padding:0 !important;
+    text-align: center;
+    background-image: url('./assets/img/cast.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px !important;
+  }
+
+  .mov-jumbo{
+    padding:0 !important;
+    text-align: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .align-left{
+    text-align: left;
+  }
+         
+              
+             
+          
+.nowPlaying{
+  z-index: -1 !important;
+}
+  
+
